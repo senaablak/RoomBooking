@@ -50,9 +50,7 @@ public class Main {
             Night = input.nextInt();
 
             System.out.println("would you like to reserve another room? " + "\nFor Yes press 1" + "\n For No press 2");
-            answer = input.nextInt();
-
-        }
+            answer = input.nextInt();        }
         if (answer == 2) {
             System.out.println("Total Price = " + roomPrice * Night);
 
